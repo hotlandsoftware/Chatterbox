@@ -1,0 +1,58 @@
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\bin\Debug\Chatterbox.exe
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\bin\Debug\Chatterbox.pdb
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\bin\Debug\Chatterbox.xml
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.vbprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.Form1.resources
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.Resources.resources
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.vbproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.exe
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.xml
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.pdb
+c:\users\admin\documents\visual studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmIPChat.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmAbout.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.HelpTopics.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmUpdate.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Chatterbox\Chatterbox\bin\Debug\Chatterbox.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmLock.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmLocked.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmSettings.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\bin\Debug\Chatterbox.exe.config
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.exe
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.xml
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.pdb
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\bin\Debug\Chatterbox.exe
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\bin\Debug\Chatterbox.pdb
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\bin\Debug\Chatterbox.xml
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.vbprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmAbout.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmIPChat.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmLock.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmLocked.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.Form1.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmSettings.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmUpdate.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.HelpTopics.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.Resources.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.vbproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.FrmChangelog.resources
+C:\Users\Admin\Documents\Chatterbox\Chatterbox\obj\Debug\Chatterbox.BabaORiley.resources
+D:\Chatterbox\Chatterbox\bin\Debug\Chatterbox.exe.config
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.exe
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.xml
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.pdb
+D:\Chatterbox\Chatterbox\bin\Debug\Chatterbox.exe
+D:\Chatterbox\Chatterbox\bin\Debug\Chatterbox.pdb
+D:\Chatterbox\Chatterbox\bin\Debug\Chatterbox.xml
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.vbprojResolveAssemblyReference.cache
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.BabaORiley.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmAbout.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.FrmChangelog.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmIPChat.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmLock.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmLocked.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.Form1.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmSettings.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.frmUpdate.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.HelpTopics.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.Resources.resources
+D:\Chatterbox\Chatterbox\obj\Debug\Chatterbox.vbproj.GenerateResource.Cache
