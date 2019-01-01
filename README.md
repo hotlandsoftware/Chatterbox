@@ -11,9 +11,7 @@ Features include:
 - Locker 
 - Multiple language support
 
-Probably doesn't have the best coding practices, but oh well. Also I don't have the code for version 0.01 - 2.01 anymore but you can probably use a decompiler to get the code to if you really want to know...
-
-Also, apparently someone wrote a bunch of comments. I'll keep them in because it's funny.
+Probably doesn't have the best coding practices, but oh well. Also I don't have the code for version 0.01 - 2.01 anymore but you can probably use a decompiler to get the code to if you really want to know..
 
 What it works on (tested)
 - Windows 98
