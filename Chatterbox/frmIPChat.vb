@@ -1,25 +1,22 @@
-﻿'let's get her started up fellas by defining our vb methods 
-
-Imports System.Net.Sockets 'no longer using that winsock bullshit that faifls to run under 10 because 10 is a pile of monkey shit
+﻿Imports System.Net.Sockets
 Imports System.Threading
 Imports System.IO
 Imports System.Net
 Imports System.Text
-Imports System.Net.Dns 'you'll see why
+Imports System.Net.Dns
 
 
 Public Class frmIPChat
     'now lets declare our variables
 
-    Dim listener As New TcpListener(5757) '1-2-3-4 i declare a thumb war
+    Dim listener As New TcpListener(5757)
     Dim client As TcpClient
-    Dim mysocket As Socket 'jim actually tried to use another 30 line method to define sockets.. what a faggot
+    Dim mysocket As Socket
     Dim message As String = ""
     Dim serveriplist As IPHostEntry = System.Net.Dns.GetHostEntry(System.Net.Dns.GetHostName()) 'see jim? it actually had a purpose. you owe me a sandwich
     Dim nameip As String
 
     Private Sub frmIPChat_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
-        'alright.. time for an ugly ass hack
         If Button3.Visible = True Then
             txtsend1.Text = "is now offline."
             Button2.PerformClick()
@@ -29,21 +26,19 @@ Public Class frmIPChat
             listener.Stop()
             Form1.Close()
         End If
-        'fucking bloody hell fuck these shoddy codes fuck vb.net fuck you jim
     End Sub
     Private Sub frmIPChat_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
     Private Sub listening()
-        listener.Start() 'lets start the listener for christs sake
+        listener.Start()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Try
             client = New TcpClient(txtip.Text, 5757)
             Dim writer As New StreamWriter(client.GetStream())
-            'save the message onto the client's listening socket buffer
 
             writer.Write(txtusername.Text & ":" & " " & txtsend1.Text)
             writer.Flush()
@@ -58,16 +53,16 @@ Public Class frmIPChat
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        If listener.Pending = True Then ' lets set the listener port to continue listening for connections
-            message = "" 'blank it out
-            client = listener.AcceptTcpClient() 'accept him for christs sake, who cares if he's LGBT?
+        If listener.Pending = True Then
+            message = ""
+            client = listener.AcceptTcpClient()
 
             Dim reader As New StreamReader(client.GetStream())
             While reader.Peek > -1
                 message = message + Convert.ToChar(reader.Read()).ToString
             End While
 
-            RichTextBox1.Text = RichTextBox1.Text + Environment.NewLine + message + vbCrLf 'lets display the text stored in the listening ports buffer
+            RichTextBox1.Text = RichTextBox1.Text + Environment.NewLine + message + vbCrLf
 
             RichTextBox1.SelectionStart = Len(RichTextBox1.Text)
             RichTextBox1.ScrollToCaret()
@@ -76,14 +71,8 @@ Public Class frmIPChat
     End Sub
 
     Private Sub ConnectionError()
-
-        ' what happens if they mess up?
-        ' this
-
         On Error GoTo 50
-
 50:     MsgBox("Error: The IP address does not appear to be valid. Please double check the IP and try again.")
-
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -152,7 +141,7 @@ Public Class frmIPChat
     End Sub
 
     Private Sub CheckForUpdatesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CheckForUpdatesToolStripMenuItem.Click
-        Dim request As System.Net.HttpWebRequest = System.Net.HttpWebRequest.Create("http://thecptrackers.com/version.txt")
+        Dim request As System.Net.HttpWebRequest = System.Net.HttpWebRequest.Create("http://yoururl.com/version.txt")
         Dim response As System.Net.HttpWebResponse = request.GetResponse
 
         Dim sr As System.IO.StreamReader = New System.IO.StreamReader(response.GetResponseStream)

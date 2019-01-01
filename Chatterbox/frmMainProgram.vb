@@ -1,20 +1,19 @@
-﻿Public Class Form1 'Lets get her started.
+﻿Public Class Form1
     Public Shared username As TextBox
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Me.Focus()
         txtname.Focus()
-        username = txtname 'Let's make sure that gets set, ay?
+        username = txtname
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If txtname.Text = "" Then 'if the user wants to be a jokester and, ya know, not type a name
+        If txtname.Text = "" Then
             MsgBox("Error: No name detected. Please input a name.")
             txtname.Focus()
 
         Else
-            frmIPChat.txtusername.text = username.Text
+            frmIPChat.txtusername.Text = username.Text
 
-            'lets go ahead and close that trash
             Me.Hide()
             frmIPChat.Show()
         End If
@@ -25,7 +24,7 @@
     End Sub
 
     Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
-        Me.Close() ' WHYYYYYYYYYY
+        Me.Close()
     End Sub
 
     Private Sub txtname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtname.KeyPress
